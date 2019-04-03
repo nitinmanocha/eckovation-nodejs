@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost:27017/applestore',(err)=> {
+mongoose.connect('mongodb+srv://<nitinmanocha7@gmail.com>:<MongoMlab@16>@applestore-5mrwv.mongodb.net/test?retryWrites=true',(err)=> {
 	if(!err)
 		console.log("connection successful");
 	else
